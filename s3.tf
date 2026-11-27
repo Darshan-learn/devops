@@ -2,7 +2,7 @@ resource "aws_s3_bucket" "tftestbucket" {
   bucket = "darshantfbucket"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My first bucket"
     Environment = "Dev"
   }
 }
